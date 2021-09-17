@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B77B271F26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B77B271E26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf */; };
 		B7B81BB126F23B7200087F13 /* ImpactAndSystemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */; };
 		B7B81BB326F23B7200087F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB226F23B7200087F13 /* ContentView.swift */; };
 		B7B81BB526F23B7300087F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B81BB426F23B7300087F13 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B77B271E26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "computing_impact_flier- Google Docs.pdf"; sourceTree = "<group>"; };
 		B7B81BAD26F23B7200087F13 /* ImpactAndSystems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpactAndSystems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactAndSystemsApp.swift; sourceTree = "<group>"; };
 		B7B81BB226F23B7200087F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		B7B81BC026F23B8800087F13 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B77B271E26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf */,
 				B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */,
 				B7B81BB426F23B7300087F13 /* Assets.xcassets */,
 				B7B81BB926F23B7300087F13 /* Info.plist */,
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77B271F26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf in Resources */,
 				B7B81BB826F23B7300087F13 /* Preview Assets.xcassets in Resources */,
 				B7B81BB526F23B7300087F13 /* Assets.xcassets in Resources */,
 			);
