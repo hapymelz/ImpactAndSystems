@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B77B271F26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B77B271E26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf */; };
 		B7B81BB126F23B7200087F13 /* ImpactAndSystemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */; };
-		B7B81BB326F23B7200087F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB226F23B7200087F13 /* ContentView.swift */; };
+		B7B81BB326F23B7200087F13 /* ImpactAndSystemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB226F23B7200087F13 /* ImpactAndSystemsView.swift */; };
 		B7B81BB526F23B7300087F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B81BB426F23B7300087F13 /* Assets.xcassets */; };
 		B7B81BB826F23B7300087F13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B81BB726F23B7300087F13 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		B77B271E26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "computing_impact_flier- Google Docs.pdf"; sourceTree = "<group>"; };
 		B7B81BAD26F23B7200087F13 /* ImpactAndSystems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpactAndSystems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactAndSystemsApp.swift; sourceTree = "<group>"; };
-		B7B81BB226F23B7200087F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7B81BB226F23B7200087F13 /* ImpactAndSystemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactAndSystemsView.swift; sourceTree = "<group>"; };
 		B7B81BB426F23B7300087F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B81BB726F23B7300087F13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7B81BB926F23B7300087F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B77B272226F4F064003B7002 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7B81BB226F23B7200087F13 /* ImpactAndSystemsView.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		B7B81BA426F23B7200087F13 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				B7B81BC026F23B8800087F13 /* Resources */,
-				B7B81BB226F23B7200087F13 /* ContentView.swift */,
+				B77B272226F4F064003B7002 /* ViewController */,
 				B7B81BB626F23B7300087F13 /* Preview Content */,
 			);
 			path = ImpactAndSystems;
@@ -150,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B81BB326F23B7200087F13 /* ContentView.swift in Sources */,
+				B7B81BB326F23B7200087F13 /* ImpactAndSystemsView.swift in Sources */,
 				B7B81BB126F23B7200087F13 /* ImpactAndSystemsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
