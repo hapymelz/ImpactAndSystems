@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B702CD3626FA184E0034242B /* ComputingImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B702CD3526FA184E0034242B /* ComputingImpact.swift */; };
 		B77B271F26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B77B271E26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf */; };
 		B7B81BB126F23B7200087F13 /* ImpactAndSystemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */; };
 		B7B81BB326F23B7200087F13 /* ImpactAndSystemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB226F23B7200087F13 /* ImpactAndSystemsView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B702CD3526FA184E0034242B /* ComputingImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputingImpact.swift; sourceTree = "<group>"; };
 		B77B271E26F4EEE5003B7002 /* computing_impact_flier- Google Docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "computing_impact_flier- Google Docs.pdf"; sourceTree = "<group>"; };
 		B7B81BAD26F23B7200087F13 /* ImpactAndSystems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpactAndSystems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactAndSystemsApp.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B702CD3826FA18870034242B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B702CD3526FA184E0034242B /* ComputingImpact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B77B272226F4F064003B7002 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		B7B81BAF26F23B7200087F13 /* ImpactAndSystems */ = {
 			isa = PBXGroup;
 			children = (
+				B702CD3826FA18870034242B /* Model */,
 				B7B81BC026F23B8800087F13 /* Resources */,
 				B77B272226F4F064003B7002 /* ViewController */,
 				B7B81BB626F23B7300087F13 /* Preview Content */,
@@ -158,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B702CD3626FA184E0034242B /* ComputingImpact.swift in Sources */,
 				B7B81BB326F23B7200087F13 /* ImpactAndSystemsView.swift in Sources */,
 				B7B81BB126F23B7200087F13 /* ImpactAndSystemsApp.swift in Sources */,
 			);
