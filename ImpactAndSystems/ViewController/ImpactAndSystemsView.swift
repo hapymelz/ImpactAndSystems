@@ -7,10 +7,31 @@
 
 import SwiftUI
 
-struct ImpactAndSystemsView: View {
-    var body: some View {
-        Text("Heloow ")
-            .padding()
+struct ImpactAndSystemsView: View
+{
+    private let impacts = loadImpactData()
+    
+    var body: some View
+    {
+        NavigationView
+        {
+            List
+            {
+                Section(header:Text("Systems"))
+                {
+                    Text("Coming Soon!")
+                }
+                Section(header: Text("Impacts"))
+                {
+                    ForEach(impacts.indices)
+                    {
+                        index in
+                        
+                        NavigationLink(destination: ImpactDetailView(with: impacts[index]), label: {Text(impacts[index].title)})
+                    }
+                }
+            }
+        }
     }
 }
 

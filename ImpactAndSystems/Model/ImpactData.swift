@@ -15,11 +15,11 @@ func loadImpactData() -> [ComputingImpact]
     
     let regions : [CLLocationCoordinate2D] =
     [
-        CLLocationCoordinate2D(latitude: 55.3781, longitude: 3.4360),
-        CLLocationCoordinate2D (latitude: 37.7757, longitude: 122.4180),
-        CLLocationCoordinate2D (latitude: 42.9207, longitude: 78.8609),
-        CLLocationCoordinate2D (latitude: 51.5074, longitude: 0.1278),
-        CLLocationCoordinate2D (latitude: 37.8609, longitude: 121.9624)
+        CLLocationCoordinate2D(latitude: 55.3781, longitude: -3.4360),
+        CLLocationCoordinate2D (latitude: 37.7757, longitude: -122.4180),
+        CLLocationCoordinate2D (latitude: 42.9207, longitude: -78.8609),
+        CLLocationCoordinate2D (latitude: 51.5074, longitude: -0.1278),
+        CLLocationCoordinate2D (latitude: 37.8609, longitude: -121.9624)
     ]
     
     let titles : [String] =
@@ -43,7 +43,7 @@ func loadImpactData() -> [ComputingImpact]
    
     for index in 0..<5
     {
-        let currentLocation = MKCoordinateRegion(center: regions[index], span: MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100))
+        let currentLocation = MKCoordinateRegion(center: regions[index], span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10))
         let currentImpact = ComputingImpact(title: titles[index], details: details[index], location: currentLocation)
         impactItems.append(currentImpact)
     }
