@@ -19,7 +19,7 @@ struct ImpactAndSystemsView: View
             {
                 Section(header:Text("Systems"))
                 {
-                    Text("Coming Soon!")
+                    NavigationLink("Definitions", destination: PDFKitView())
                 }
                 Section(header: Text("Impacts"))
                 {

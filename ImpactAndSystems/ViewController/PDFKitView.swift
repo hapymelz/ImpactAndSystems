@@ -12,7 +12,9 @@ struct PDFKitView: View
 {
     var body: some View
     {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        PDFKitRepresentiveView(url : definitions)
+            
+        
     }
 }
 
@@ -27,10 +29,11 @@ struct PDFKitRepresentiveView: UIViewRepresentable
     
     func makeUIView(context : Context) -> some UIView
     {
-        let pdfView : PDFView = PDFVIew()
+        let pdfView : PDFView = PDFView()
         pdfView.document = PDFDocument(url: self.url)
         pdfView.autoScales = true
-        pdfView.displayDirection = .vertical
+        pdfView.displayDirection = .horizontal
+        
         
         return pdfView
     }
@@ -40,9 +43,6 @@ struct PDFKitRepresentiveView: UIViewRepresentable
         
     }
 }
-
-
-
 
 
 
