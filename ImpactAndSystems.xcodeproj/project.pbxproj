@@ -10,6 +10,7 @@
 		B702CD3626FA184E0034242B /* ComputingImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B702CD3526FA184E0034242B /* ComputingImpact.swift */; };
 		B702CD3B26FA1CFE0034242B /* ImpactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B702CD3A26FA1CFE0034242B /* ImpactData.swift */; };
 		B702CD3E26FA26810034242B /* ImpactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B702CD3D26FA26810034242B /* ImpactDetailView.swift */; };
+		B76801E026FCC48800858D54 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76801DF26FCC48800858D54 /* PDFKitView.swift */; };
 		B77B271F26F4EEE5003B7002 /* computing_impact.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B77B271E26F4EEE5003B7002 /* computing_impact.pdf */; };
 		B7B81BB126F23B7200087F13 /* ImpactAndSystemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */; };
 		B7B81BB326F23B7200087F13 /* ImpactAndSystemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B81BB226F23B7200087F13 /* ImpactAndSystemsView.swift */; };
@@ -21,6 +22,7 @@
 		B702CD3526FA184E0034242B /* ComputingImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputingImpact.swift; sourceTree = "<group>"; };
 		B702CD3A26FA1CFE0034242B /* ImpactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactData.swift; sourceTree = "<group>"; };
 		B702CD3D26FA26810034242B /* ImpactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactDetailView.swift; sourceTree = "<group>"; };
+		B76801DF26FCC48800858D54 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
 		B77B271E26F4EEE5003B7002 /* computing_impact.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = computing_impact.pdf; sourceTree = "<group>"; };
 		B7B81BAD26F23B7200087F13 /* ImpactAndSystems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpactAndSystems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B81BB026F23B7200087F13 /* ImpactAndSystemsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactAndSystemsApp.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				B7B81BB226F23B7200087F13 /* ImpactAndSystemsView.swift */,
 				B702CD3D26FA26810034242B /* ImpactDetailView.swift */,
+				B76801DF26FCC48800858D54 /* PDFKitView.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76801E026FCC48800858D54 /* PDFKitView.swift in Sources */,
 				B702CD3626FA184E0034242B /* ComputingImpact.swift in Sources */,
 				B7B81BB326F23B7200087F13 /* ImpactAndSystemsView.swift in Sources */,
 				B7B81BB126F23B7200087F13 /* ImpactAndSystemsApp.swift in Sources */,
