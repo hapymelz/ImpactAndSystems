@@ -13,6 +13,7 @@ struct ImpactAndSystemsView: View
     
     var body: some View
     {
+        
         NavigationView
         {
             List
@@ -35,7 +36,7 @@ struct ImpactAndSystemsView: View
     }
 }
 
-struct ContentView_Previews: PreviewProvider
+ struct ContentView_Previews: PreviewProvider
 {
     static var previews: some View
     {

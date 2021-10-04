@@ -55,9 +55,10 @@
 		B77B272226F4F064003B7002 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B7B81BB226F23B7200087F13 /* ImpactAndSystemsView.swift */,
 				B702CD3D26FA26810034242B /* ImpactDetailView.swift */,
+				B7B81BB226F23B7200087F13 /* ImpactAndSystemsView.swift */,
 				B76801DF26FCC48800858D54 /* PDFKitView.swift */,
+				B7B81BB626F23B7300087F13 /* Preview Content */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -84,7 +85,6 @@
 				B702CD3826FA18870034242B /* Model */,
 				B7B81BC026F23B8800087F13 /* Resources */,
 				B77B272226F4F064003B7002 /* ViewController */,
-				B7B81BB626F23B7300087F13 /* Preview Content */,
 			);
 			path = ImpactAndSystems;
 			sourceTree = "<group>";

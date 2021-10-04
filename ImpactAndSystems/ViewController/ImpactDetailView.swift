@@ -20,14 +20,14 @@ struct ImpactDetailView: View
             Map(coordinateRegion: $impact.location, annotationItems: mapItems)
             {
                 pin in
-                MapMarker(coordinate: pin.location.center, tint: .red)
+                MapPin(coordinate: pin.location.center, tint: .red)
             }
                 .frame(height: 400)
             .onAppear
             {
                 withAnimation
                 {
-                    impact.location.span = MKCoordinateSpan(latitudeDelta: 5, longitudeDelta: s5)
+                    impact.location.span = MKCoordinateSpan(latitudeDelta: 5, longitudeDelta: 5)
                 }
             }
             Text(impact.details)
