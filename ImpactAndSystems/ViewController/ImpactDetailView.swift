@@ -17,6 +17,7 @@ struct ImpactDetailView: View
     {
         VStack
         {
+            Text(impact.title)
             Map(coordinateRegion: $impact.location, annotationItems: mapItems)
             {
                 pin in
